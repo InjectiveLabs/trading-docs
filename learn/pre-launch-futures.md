@@ -36,6 +36,7 @@ Where:
   * Assumed price used for PYTH/USDT Pre Launch Futures is `0.3`.
   * Assumed price used for JUP/USDT Pre Launch Futures is `0.55`.
   * Assumed price used for ZRO/USDT Pre Launch Futures is `5`.
+  * Assumed price used for W/USDT Pre Launch Futures is `0.5`.
 * `last traded price` is the last price traded in the underlying market.&#x20;
 
 [^1]: Pre-Launch Futures
