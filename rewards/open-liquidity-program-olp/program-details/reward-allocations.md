@@ -64,7 +64,7 @@ $$
 
 Any reward allocations that exceed the cap will be redistributed amongst the other eligible markets according to the [dynamic allocation formula](reward-allocations.md#dynamic-market-reward-allocations).
 
-<table><thead><tr><th width="422"># Eligible Markets Excluding BTC/ETH/INJ Perps</th><th>Rewards Cap</th></tr></thead><tbody><tr><td>6</td><td>15.00% of Total Available Rewards</td></tr><tr><td>7</td><td>12.86% of Total Available Rewards</td></tr><tr><td>8</td><td>11.25% of Total Available Rewards</td></tr><tr><td>9</td><td>10.00% of Total Available Rewards</td></tr><tr><td>10</td><td>9.00% of Total Available Rewards</td></tr><tr><td>11</td><td>8.18% of Total Available Rewards</td></tr><tr><td>12</td><td>7.50% of Total Available Rewards</td></tr><tr><td>...</td><td>...</td></tr></tbody></table>
+<table><thead><tr><th width="422"># Eligible Markets Excluding BTC/ETH/INJ Perps</th><th>Rewards Cap</th></tr></thead><tbody><tr><td>6</td><td>17.50% of Total Available Rewards</td></tr><tr><td>7</td><td>15.00% of Total Available Rewards</td></tr><tr><td>8</td><td>13.13% of Total Available Rewards</td></tr><tr><td>9</td><td>11.67% of Total Available Rewards</td></tr><tr><td>10</td><td>10.50% of Total Available Rewards</td></tr><tr><td>11</td><td>9.55% of Total Available Rewards</td></tr><tr><td>12</td><td>8.75% of Total Available Rewards</td></tr><tr><td>...</td><td>...</td></tr></tbody></table>
 
 ## Market Maker Reward Allocations
 
