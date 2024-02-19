@@ -13,13 +13,13 @@ Rewards are allocated to [eligible markets](eligible-markets.md) in two differen
 
 ### Static Market Reward Allocations (Preallocations)
 
-20% of INJ rewards will be preallocated to the BTC/USDT Perp market, 20% will be preallocated to the ETH/USDT Perp market, and 15% will be preallocated to the INJ/USDT Perp market. 1% will be preallocated to each remaining eligible market as a minimum allocation:&#x20;
+17.5% of INJ rewards will be preallocated to the BTC/USDT Perp market, 17.5% will be preallocated to the ETH/USDT Perp market, and 12.5% will be preallocated to the INJ/USDT Perp market. 1% will be preallocated to each remaining eligible market as a minimum allocation:&#x20;
 
 | Market                 | Total Allocation                                                                       |
 | ---------------------- | -------------------------------------------------------------------------------------- |
-| BTC/USDT Perp          | 20%                                                                                    |
-| ETH/USDT Perp          | 20%                                                                                    |
-| INJ/USDT Perp          | 15%                                                                                    |
+| BTC/USDT Perp          | 17.5%                                                                                  |
+| ETH/USDT Perp          | 17.5%                                                                                  |
+| INJ/USDT Perp          | 12.5%                                                                                  |
 | Other Eligible Markets | 1% each + formula based allocation, with reward cap based on formula (see table below) |
 
 {% hint style="info" %}
