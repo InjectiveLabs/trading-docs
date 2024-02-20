@@ -35,7 +35,7 @@ Rewards_{Market_i} = TAR * Preallocation_{Market_i} + TAR * (1- Preallocation_{T
 $$
 
 $$
-\text{where} \quad Preallocation_{Total} = 0.2+0.2+0.15+Other\  Preallocations
+\text{where} \quad Preallocation_{Total} = 0.175+0.175+0.125+Other\  Preallocations
 $$
 
 $$
