@@ -16,19 +16,19 @@ curl -s -X POST https://glp.rest.injective.network/injective_dmm_v2_rpc.Injectiv
 ```
 {% endcode %}
 
-{% code title="Rewards per Address" overflow="wrap" fullWidth="false" %}
+{% code title="Rewards per Address:" overflow="wrap" fullWidth="false" %}
 ```
 curl -s -d '{"epochId":"epoch_231128_231225"}' -X POST https://glp.rest.injective.network/injective_dmm_v2_rpc.InjectiveDmmV2RPC/GetEpochScores
 ```
 {% endcode %}
 
-{% code title="Rewards in a Market" overflow="wrap" %}
+{% code title="Rewards in a Market:" overflow="wrap" %}
 ```
 curl -X POST -d '{"epochId": "epoch_240123_240219", "marketId":"0x4ca0f92fc28be0c9761326016b5a1a2177dd6375558365116b5bdda9abc229ce", "page": {"perPage": 200}}' https://glp.rest.injective.network/injective_dmm_v2_rpc.InjectiveDmmV2RPC/GetTotalScores
 ```
 {% endcode %}
 
-{% code title="Snapshots for Address" overflow="wrap" %}
+{% code title="Snapshots for Address:" overflow="wrap" %}
 ```
 curl -X POST -d '{"epochId": "epoch_240123_240219", "accountAddress": "<INSERT MM ADDRESS>", "marketId":"0x4ca0f92fc28be0c9761326016b5a1a2177dd6375558365116b5bdda9abc229ce", "page": {"perPage": 200}}' https://glp.rest.injective.network/injective_dmm_v2_rpc.InjectiveDmmV2RPC/GetTotalScoresHistory
 ```
