@@ -12,24 +12,24 @@ OLP data for current and previous epochs can also be queried programmatically:&#
 
 {% code title="Epochs and Markets:" overflow="wrap" fullWidth="false" %}
 ```
-curl -s --insecure -X POST https://glp.rest.injective.network/injective_dmm_v2_rpc.InjectiveDmmV2RPC/GetEpochs
+curl -s -X POST https://glp.rest.injective.network/injective_dmm_v2_rpc.InjectiveDmmV2RPC/GetEpochs
 ```
 {% endcode %}
 
 {% code title="Rewards per Address" overflow="wrap" fullWidth="false" %}
 ```
-curl -s --insecure -d '{"epochId":"epoch_231128_231225"}' -X POST https://glp.rest.injective.network/injective_dmm_v2_rpc.InjectiveDmmV2RPC/GetEpochScores
+curl -s -d '{"epochId":"epoch_231128_231225"}' -X POST https://glp.rest.injective.network/injective_dmm_v2_rpc.InjectiveDmmV2RPC/GetEpochScores
 ```
 {% endcode %}
 
 {% code title="Rewards in a Market" overflow="wrap" %}
 ```
-curl --insecure -X POST -d '{"epochId": "epoch_240123_240219", "marketId":"0x4ca0f92fc28be0c9761326016b5a1a2177dd6375558365116b5bdda9abc229ce", "page": {"perPage": 200}}' https://glp.rest.injective.network/injective_dmm_v2_rpc.InjectiveDmmV2RPC/GetTotalScores
+curl -X POST -d '{"epochId": "epoch_240123_240219", "marketId":"0x4ca0f92fc28be0c9761326016b5a1a2177dd6375558365116b5bdda9abc229ce", "page": {"perPage": 200}}' https://glp.rest.injective.network/injective_dmm_v2_rpc.InjectiveDmmV2RPC/GetTotalScores
 ```
 {% endcode %}
 
 {% code title="Snapshots for Address" overflow="wrap" %}
 ```
-curl --insecure -X POST -d '{"epochId": "epoch_240123_240219", "accountAddress": "<INSERT MM ADDRESS>", "marketId":"0x4ca0f92fc28be0c9761326016b5a1a2177dd6375558365116b5bdda9abc229ce", "page": {"perPage": 200}}' https://glp.rest.injective.network/injective_dmm_v2_rpc.InjectiveDmmV2RPC/GetTotalScoresHistory
+curl -X POST -d '{"epochId": "epoch_240123_240219", "accountAddress": "<INSERT MM ADDRESS>", "marketId":"0x4ca0f92fc28be0c9761326016b5a1a2177dd6375558365116b5bdda9abc229ce", "page": {"perPage": 200}}' https://glp.rest.injective.network/injective_dmm_v2_rpc.InjectiveDmmV2RPC/GetTotalScoresHistory
 ```
 {% endcode %}
