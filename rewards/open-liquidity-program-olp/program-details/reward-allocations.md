@@ -13,12 +13,12 @@ Rewards are allocated to [eligible markets](eligible-markets.md) in two differen
 
 ### Static Market Reward Allocations (Preallocations)
 
-17.5% of INJ rewards will be preallocated to the BTC/USDT Perp market, 17.5% will be preallocated to the ETH/USDT Perp market, and 12.5% will be preallocated to the INJ/USDT Perp market. 1% will be preallocated to each remaining eligible market as a minimum allocation:&#x20;
+16.25% of INJ rewards will be preallocated to the BTC/USDT Perp market, 16.25% will be preallocated to the ETH/USDT Perp market, and 12.5% will be preallocated to the INJ/USDT Perp market. 1% will be preallocated to each remaining eligible market as a minimum allocation:&#x20;
 
 | Market                 | Total Allocation                                                                       |
 | ---------------------- | -------------------------------------------------------------------------------------- |
-| BTC/USDT Perp          | 17.5%                                                                                  |
-| ETH/USDT Perp          | 17.5%                                                                                  |
+| BTC/USDT Perp          | 16.25%                                                                                 |
+| ETH/USDT Perp          | 16.25%                                                                                 |
 | INJ/USDT Perp          | 12.5%                                                                                  |
 | Other Eligible Markets | 1% each + formula based allocation, with reward cap based on formula (see table below) |
 
@@ -35,7 +35,7 @@ Rewards_{Market_i} = TAR * Preallocation_{Market_i} + TAR * (1- Preallocation_{T
 $$
 
 $$
-\text{where} \quad Preallocation_{Total} = 0.175+0.175+0.125+Other\  Preallocations
+\text{where} \quad Preallocation_{Total} = 0.1625+0.1625+0.125+Other\  Preallocations
 $$
 
 $$
@@ -64,7 +64,7 @@ $$
 
 Any reward allocations that exceed the cap will be redistributed amongst the other eligible markets according to the [dynamic allocation formula](reward-allocations.md#dynamic-market-reward-allocations).
 
-<table><thead><tr><th width="422"># Eligible Markets Excluding BTC/ETH/INJ Perps</th><th>Rewards Cap</th></tr></thead><tbody><tr><td>6</td><td>17.50% of Total Available Rewards</td></tr><tr><td>7</td><td>15.00% of Total Available Rewards</td></tr><tr><td>8</td><td>13.13% of Total Available Rewards</td></tr><tr><td>9</td><td>11.67% of Total Available Rewards</td></tr><tr><td>10</td><td>10.50% of Total Available Rewards</td></tr><tr><td>11</td><td>9.55% of Total Available Rewards</td></tr><tr><td>12</td><td>8.75% of Total Available Rewards</td></tr><tr><td>...</td><td>...</td></tr></tbody></table>
+<table><thead><tr><th width="417" align="center"># Eligible Markets Excluding BTC/ETH/INJ Perps</th><th>Rewards Cap</th></tr></thead><tbody><tr><td align="center">6</td><td>17.50% of Total Available Rewards</td></tr><tr><td align="center">7</td><td>15.00% of Total Available Rewards</td></tr><tr><td align="center">8</td><td>13.13% of Total Available Rewards</td></tr><tr><td align="center">9</td><td>11.67% of Total Available Rewards</td></tr><tr><td align="center">10</td><td>10.50% of Total Available Rewards</td></tr><tr><td align="center">11</td><td>9.55% of Total Available Rewards</td></tr><tr><td align="center">12</td><td>8.75% of Total Available Rewards</td></tr><tr><td align="center">...</td><td>...</td></tr></tbody></table>
 
 ## Market Maker Reward Allocations
 
