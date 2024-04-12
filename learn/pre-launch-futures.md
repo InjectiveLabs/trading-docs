@@ -33,10 +33,11 @@ Where:
 * `t_init` is the time of the first trade in the underlying market.
 * `assumed price` is the price assumption of the underlying asset. This price is used when there is no `last traded price` 24 hours prior the first trade in the underlying market. In other words, after the first 24 hours, if the underlying market has traded already, then the assumed price would no longer have an impact to the mark price.&#x20;
   * Assumed price used for TIA/USDT Pre Launch Futures is `2.5`.
-  * Assumed price used for PYTH/USDT Pre Launch Futures is `0.3`.
-  * Assumed price used for JUP/USDT Pre Launch Futures is `0.55`.
-  * Assumed price used for ZRO/USDT Pre Launch Futures is `5`.
-  * Assumed price used for W/USDT Pre Launch Futures is `2`.
+  * Assumed price used for PYTH/USDT PLF is `0.3`.
+  * Assumed price used for JUP/USDT PLF is `0.55`.
+  * Assumed price used for ZRO/USDT PLF is `5`.
+  * Assumed price used for W/USDT PLF is `2`.
+  * Assumed price used for OMNI/USDT PLF is `40`.
 * `last traded price` is the last price traded in the underlying market.&#x20;
 
 [^1]: Pre-Launch Futures
