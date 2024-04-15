@@ -12,7 +12,7 @@ An Injective address can qualify for OLP by meeting the following criteria:
   * Note: Eligibility for the qualification process begins at 00:00 UTC the day after the opt out is complete. To check if an address has been successfully opted out of T\&E, [this list can be cross referenced](https://lcd.injective.network/injective/exchange/v1beta1/opted\_out\_of\_rewards\_accounts).
 * The address's maker volume must account for **at least 0.25% of the total daily exchange maker volume of** [**eligible markets**](program-details/eligible-markets.md) **for 3 days in a row** in the same epoch. Self trading is strictly prohibited.
 
-Assuming both of these requirements have been met, the address will qualify for OLP rewards on the 4th day at 00:00 UTC. Once qualified, an address will remain eligible for rewards through the rest of the epoch unless special circumstances (e.g. abusing the system) compel the removal of the address. Note that activity prior to qualification will not count towards rewards.
+Assuming both of these requirements have been met, the address will qualify for OLP rewards on the 4th day at 00:00 UTC. Once qualified, an address will remain eligible for rewards through the rest of the epoch unless special circumstances (e.g. abusing the system, wash trading, etc.) compel the removal of the address. Note that activity prior to qualification will not count towards rewards.
 
 {% hint style="warning" %}
 It may be prudent to consolidate trading strategies into a single address to increase maker volume. Otherwise, addresses with less maker volume than the required threshold will not qualify for rewards even if volume on an aggregate level between multiple addresses exceeds the threshold.&#x20;
