@@ -16,3 +16,7 @@ The specific calculation of funding rates is a formula that considers the differ
 For **long position holders**, positive funding rates represent an additional cost. You'll be paying funding fees to short positions on each funding interval. Conversely, negative funding rates translate to receiving payments, essentially earning passive income on your open position.
 
 For **short position holders**, the funding dynamic flips. Positive funding rates become a source of income, while negative funding rates translate to periodic payments you owe to long positions. Therefore, it's crucial to factor potential funding costs into your margin calculations and risk management strategies.
+
+The current funding payment formula on Injective can be found below:
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
