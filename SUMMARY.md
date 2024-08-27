@@ -8,6 +8,7 @@
 * [Expiry Futures](learn/expiry-futures.md)
 * [Perpetual Futures](learn/perpetual-futures.md)
 * [Pre-Launch Futures](learn/pre-launch-futures.md)
+* [Index Perps](learn/index-perps.md)
 * [Margin Trading](learn/margin-trading/README.md)
   * [Liquidation](learn/margin-trading/liquidation.md)
   * [Funding Rates](learn/margin-trading/funding-rates.md)
