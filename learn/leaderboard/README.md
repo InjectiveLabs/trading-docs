@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Leaderboard
 
 The Helix profit and loss (PNL) leaderboard ranks the top traders on Helix based on realised trading PNL on the exchange. There are four different durations to choose from : 1 day, 1 week, 1 month, and all time. 1 day PNL begins at 00:00 UTC on the same day, 1 week begins at 00:00 UTC on the previous Monday, and 1 month begins on the first day of the same month at 00:00 UTC. All time includes realised PNL since August 3, 2024.
