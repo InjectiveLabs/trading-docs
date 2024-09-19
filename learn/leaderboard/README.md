@@ -1,0 +1,19 @@
+# Leaderboard
+
+The Helix profit and loss (PNL) leaderboard ranks the top traders on Helix based on realised trading PNL on the exchange. There are four different durations to choose from : 1 day, 1 week, 1 month, and all time. 1 day PNL begins at 00:00 UTC on the same day, 1 week begins at 00:00 UTC on the previous Monday, and 1 month begins on the first day of the same month at 00:00 UTC. All time includes realised PNL since August 3, 2024.
+
+Connected wallets should see their stats if and only if they make the leaderboard, which will show profitable traders who clear a hurdle that will change over time based on the relative strength of the top traders on Helix. Wallets with negative PNL (or no PNL at all) will not see their rank until they close some profitable trades.
+
+Figures on the PNL leaderboard are not meant to be a substitute for thorough tax reporting calculations, and purely exist for vanity purposes as well as for the running of trading competitions. Calculations for the Helix PNL leaderboard are done as follows :&#x20;
+
+First, spot positions "opened" before the advent of the leaderboard will not be counted towards a user's total. Similarly, spot buys made after the launch of the leaderboard will not count towards PNL unless there is a corresponding sell afterwards. Perp positions opened before the launch of the leaderboard will be counted, insofar as they are closed.
+
+Next, the Helix PNL leaderboard uses a "first in first out" (FIFO) approach to spot profit calculations.
+
+Let's use a simple example where a user buys 50 INJ at date A, sells 200 INJ at date B, sells 50 INJ at date C, buys 10 INJ at date D, and sells 20 INJ at date E.
+
+The initial PNL of course is zero. The PNL at date A is also zero, because nothing has been sold. The PNL at date B is equal to 50 \* P(B) - 50 \* P(A), where P(A) is the price on date A and P(B) is the price on date B. The PNL at date C is that same value, because the user is net short, and the same goes for date D. However, as the user has purchased more INJ at date D, the PNL at date E is (50 \* P(B) - 50 \* P(A)) + (10 \* P(E) - 10 \* P(D)), where 50 \* P(B) - 50 \* P(A) is the previously accrued PNL, and 10 \* P(E) - 10 \* P(D) is the newly accrued PNL from the sale of all 10 INJ purchased on date D. Note, the user is at this point "short," as they have sold more INJ than they have purchased since calculations began.
+
+As mentioned, coins purchased before the leaderboard went live are not included in calculations. In an example, let's say a user purchases 5 BTC on date A, before the leaderboard went live. On date B, the user sells 1 BTC. Their PNL is still zero. On date C, the user sells 5 more BTC, so their PNL is still zero. On date D, the user purchases 1 BTC. And on date E, the user sells 2 BTC. Since over this entire time horizon, they have only purchased 1 BTC, which they sold on date E, the user's PNL is 1 \* P(E) - 1 \* P(D), where P(D) and P(E) are the price of BTC on dates D and E, respectively. Of course, the behavior would be different for derivative markets, as the user would have accrued PNL from closing various short positions opened at various price levels. For spot markets, there is no concept of "going short," therefore selling BTC that the user already had then buying it back later does not result in accrued PNL.
+
+For derivative markets, PNL calculations are far simpler. A recent chain upgrade added a realised PNL (rPNL) event anytime a derivatives position is closed. Those totals are simply added to the sum to determine a user's PNL from derivatives trades.

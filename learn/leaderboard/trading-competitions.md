@@ -1,0 +1,7 @@
+# Trading Competitions
+
+From time to time, Helix will host trading competitions. These competitions will be based on either PNL or trading volume over the specified duration. For some competitions, winners will be chosen due to having the highest PNL (or volume), and for others, winners will be chosen at random where their number of entries is a function of their total PNL (or volume). In some cases, there will be multiple winners, perhaps a combination of the two.
+
+For example, a trading competition might award two grand prizes - one to the trader with the most volume on Helix over the specified time period, and one to a random trader that has made trades on Helix. To decide the latter winner, users may accrue raffle tickets - for example, one raffle ticket for every $10 of trading volume. At the end of the competition period, a winner would be chosen at random based on the total number of raffle tickets accrued by all participating wallets.
+
+On the Helix trading competition page, in this example all users would see their total volume and resulting number of raffle tickets. These figures would be refreshed periodically, and would not update in real time. At the end of the trading competition, the winner(s) will see a popup if their connected wallet has been deemed a winner. The popup will include information about verifying their identity and claiming their prize. Every trading competition will have clearly defined start and end dates, and will be governed by terms and conditions specific to that competition.

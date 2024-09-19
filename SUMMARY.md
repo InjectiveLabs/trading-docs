@@ -15,10 +15,12 @@
   * [Funding Rates](learn/margin-trading/funding-rates.md)
   * [Performing Liquidations](learn/margin-trading/performing-liquidations.md)
 * [Trading Fees and Rebates](learn/trading-fees-and-rebates.md)
+* [Leaderboard](learn/leaderboard/README.md)
+  * [Trading Competitions](learn/leaderboard/trading-competitions.md)
 
 ## 💰 Rewards
 
-* [🌊 Open Liquidity Program (OLP)](rewards/open-liquidity-program-olp/README.md)
+* [Open Liquidity Program (OLP)](rewards/open-liquidity-program-olp/README.md)
   * [Introduction](rewards/open-liquidity-program-olp/introduction.md)
   * [OLP Rewards](rewards/open-liquidity-program-olp/olp-rewards.md)
   * [Epochs](rewards/open-liquidity-program-olp/epochs.md)
