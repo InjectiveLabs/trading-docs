@@ -1,4 +1,4 @@
-# Index Perps
+# Index Perpetual Futures
 
 An index perpetual futures contract, often referred to as an "index perp," is a type of derivative financial instrument commonly used in cryptocurrency markets. An index perp is a perpetual futures contract that tracks the price of an index, rather than a single asset. In the context of cryptocurrencies, this index typically represents a basket of cryptocurrencies or instead - as in the case of the BUIDL/USDT Index Perp - the total supply of a product on chain, as dictated by the token's smart contract.
 
@@ -10,9 +10,7 @@ Unlike traditional futures, these contracts don't have an expiry date. They can 
 * Traders can go long (buy) or short (sell) the index, with up to 5x leverage.
 * Periodic funding payments occur between long and short holders to align the contract price with the index.
 
-Expiry futures require mark prices to track liquidation and settlement prices. Because mark prices are typically based on the spot prices of the underlying assets, regular oracle price feeds cannot be used for Index Perp Futures as the index price typically does not exist in popular oracle feeds. However, an mark price is still needed prior to this time to inform liquidation prices.
-
-To solve this, Pre-Launch Futures will initially use an 24-hour exponentially weighted moving average of the last day's minutely last traded price as the mark price.
+Futures contracts require mark prices to track liquidation and settlement prices. Because mark prices are typically based on the spot prices of the underlying assets, regular oracle price feeds cannot be used for Index Perp Futures as the index price typically does not exist in popular oracle feeds. However, a mark price is still needed prior to this time to inform liquidation prices. To solve this, index perps will use a proprietary oracle feed as the mark price.
 
 ### Mark Price Mechanism
 
