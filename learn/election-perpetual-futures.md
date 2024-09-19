@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Election Perpetual Futures
 
 An election perpetual futures contract - or an election perp - is a type of derivative financial instrument on Injective that allows users to gain leveraged exposure to an elections market. An election perp is a perpetual futures contract that tracks the price of a market on Polymarket, rather than a traditional crypto asset.
