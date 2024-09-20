@@ -10,7 +10,7 @@ Unlike traditional futures, these contracts don't have an expiry date. They can 
 
 ### How do Election Perpetual Futures Work?
 
-* The contract tracks a market on Polymarket (e.g., 2024 Presidential election).
+* The contract tracks a market on Polymarket (e.g., [Presidential Election Winner 2024](https://polymarket.com/event/presidential-election-winner-2024)).
 * Traders can go long (buy) or short (sell) the election perp, with up to 3x leverage.
 * Periodic funding payments occur between long and short holders to align the contract price with the index.
 
