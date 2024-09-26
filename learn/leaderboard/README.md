@@ -4,7 +4,7 @@ hidden: true
 
 # Leaderboard
 
-The Helix profit and loss (PNL) leaderboard ranks the top traders on Helix based on realised trading PNL on the exchange. There are four different durations to choose from : 1 day, 1 week, 1 month, and all time. 1 day PNL begins at 00:00 UTC on the same day, 1 week begins at 00:00 UTC on the previous Monday, and 1 month begins on the first day of the same month at 00:00 UTC. All time includes realised PNL since August 3, 2024.
+The Helix profit and loss (PNL) leaderboard ranks the top traders on Helix based on realised trading PNL on the exchange. There are four different durations to choose from : 1 day, 1 week, 1 month, and all time. 1 day PNL begins at 00:00 UTC on the same day, 1 week begins at 00:00 UTC on the previous Monday, and 1 month begins on the first day of the same month at 00:00 UTC. All time includes realised PNL since August 1, 2024.
 
 Connected wallets should see their stats if and only if they make the leaderboard, which will show profitable traders who clear a hurdle that will change over time based on the relative strength of the top traders on Helix. Wallets who do not clear the hurdle due to a negative PNL, PNL beneath the dynamic hurdle, or no PNL at all will not see their rank until they close some profitable trades above the dynamic hurdle.
 
