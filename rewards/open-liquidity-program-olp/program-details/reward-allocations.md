@@ -13,12 +13,12 @@ Rewards are allocated to [eligible markets](eligible-markets.md) in two differen
 
 ### Static Market Reward Allocations (Preallocations)
 
-16.25% of INJ rewards will be preallocated to the BTC/USDT Perp market, 16.25% will be preallocated to the ETH/USDT Perp market, and 12.5% will be preallocated to the INJ/USDT Perp market. 1% will be preallocated to each remaining eligible market as a minimum allocation:&#x20;
+12.5% of INJ rewards will be preallocated to the BTC/USDT Perp market, 12.5% will be preallocated to the ETH/USDT Perp market, and 12.5% will be preallocated to the INJ/USDT Perp market. 1% will be preallocated to each remaining eligible market as a minimum allocation:&#x20;
 
 | Market                 | Total Allocation                                                                       |
 | ---------------------- | -------------------------------------------------------------------------------------- |
-| BTC/USDT Perp          | 16.25%                                                                                 |
-| ETH/USDT Perp          | 16.25%                                                                                 |
+| BTC/USDT Perp          | 12.5%                                                                                  |
+| ETH/USDT Perp          | 12.5%                                                                                  |
 | INJ/USDT Perp          | 12.5%                                                                                  |
 | Other Eligible Markets | 1% each + formula based allocation, with reward cap based on formula (see table below) |
 
@@ -35,7 +35,7 @@ Rewards_{Market_i} = TAR * Preallocation_{Market_i} + TAR * (1- Preallocation_{T
 $$
 
 $$
-\text{where} \quad Preallocation_{Total} = 0.1625+0.1625+0.125+Other\  Preallocations
+\text{where} \quad Preallocation_{Total} = 0.125+0.125+0.125+Other\  Preallocations
 $$
 
 $$
@@ -59,7 +59,7 @@ For markets added to the eligible list midway through an epoch, the 1% prealloca
 For each market that has dynamic reward allocations, a hard cap will be applied according to the following formula, where $$n$$ is the number of eligible markets excluding BTC, ETH, and INJ perps:
 
 $$
-Rewards_{max} = TAR\ *\ \frac{0.45}{n}*2
+Rewards_{max} = TAR\ *\ \frac{0.375}{n}*2
 $$
 
 Any reward allocations that exceed the cap will be redistributed amongst the other eligible markets according to the [dynamic allocation formula](reward-allocations.md#dynamic-market-reward-allocations).
