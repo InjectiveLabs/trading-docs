@@ -12,8 +12,8 @@ layout:
     visible: true
 ---
 
-# 📖 Injective Trading Docs
+# Getting Started
 
-Welcome to the official documentation for Injective Trading! Click below or on the sidebar to read more.
+Here you can find a comprehensive overview of the Injective's **exchange module**, as well as tutorials, guides, reward programs, leaderboard competitions, and general resources for developers and API traders.
 
-<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="1f393">🎓</span> <strong>Learn</strong></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="1f4b0">💰</span> <strong>Rewards</strong></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="1f4bb">💻</span> <strong>Resources</strong></td><td></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
+If you want to ask any questions or be a part of our community, please join our [Discord Group](https://discord.gg/injective) or [Telegram Group](https://t.me/InjectiveAPI). We have a dedicated channel in our Discord group for questions related to the API.

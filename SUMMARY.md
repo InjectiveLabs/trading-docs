@@ -1,24 +1,42 @@
 # Table of contents
 
-* [📖 Injective Trading Docs](README.md)
+* [Getting Started](README.md)
 
-## 🎓 Learn
+## Learn
 
-* [Order Types](learn/order-types.md)
-* [Expiry Futures](learn/expiry-futures.md)
-* [Perpetual Futures](learn/perpetual-futures.md)
-* [Pre-Launch Futures](learn/pre-launch-futures.md)
-* [Index Perpetual Futures](learn/index-perpetual-futures.md)
-* [Election Perpetual Futures](learn/election-perpetual-futures.md)
-* [Margin Trading](learn/margin-trading/README.md)
-  * [Liquidation](learn/margin-trading/liquidation.md)
-  * [Funding Rates](learn/margin-trading/funding-rates.md)
-  * [Performing Liquidations](learn/margin-trading/performing-liquidations.md)
-* [Trading Fees and Rebates](learn/trading-fees-and-rebates.md)
-* [Leaderboard](learn/leaderboard/README.md)
-  * [Trading Competitions](learn/leaderboard/trading-competitions.md)
+* [Basics](learn/basics/README.md)
+  * [Order Types](learn/basics/order-types.md)
+  * [Margin Trading](learn/basics/margin-trading/README.md)
+    * [Liquidation](learn/basics/margin-trading/liquidation.md)
+    * [Funding Rates](learn/basics/margin-trading/funding-rates.md)
+    * [Performing Liquidations](learn/basics/margin-trading/performing-liquidations.md)
+  * [Trading Fees and Rebates](learn/basics/trading-fees-and-rebates.md)
+* [Derivatives](learn/derivatives/README.md)
+  * [Perpetuals](learn/derivatives/perpetuals.md)
+  * [Expiry Futures](learn/derivatives/expiry-futures.md)
+  * [Election Perpetual](learn/derivatives/election-perpetual.md)
+  * [Pre-Launch Futures](learn/derivatives/pre-launch-futures.md)
+  * [Index Perpetual Futures](learn/derivatives/index-perpetual-futures.md)
 
-## 💰 Rewards
+## Traders
+
+* [Getting Started](traders/getting-started/README.md)
+  * [Overview](traders/getting-started/overview.md)
+  * [Market and Limit order](traders/getting-started/market-and-limit-order.md)
+  * [Transaction Broadcaster](traders/getting-started/transaction-broadcaster.md)
+* [Toolkits (SDKs)](traders/toolkits-sdks/README.md)
+  * [Python](traders/toolkits-sdks/python.md)
+  * [TypeScript](traders/toolkits-sdks/typescript.md)
+  * [Go](traders/toolkits-sdks/go.md)
+  * [Other Languages](traders/toolkits-sdks/other-languages.md)
+* [API Reference](traders/api-reference.md)
+* [Resources](traders/resources/README.md)
+  * [FAQ](traders/resources/faq.md)
+  * [Glossary](traders/resources/glossary.md)
+  * [API & SDKs Changelog](traders/resources/api-and-sdks-changelog.md)
+  * [Error Codes](traders/resources/error-codes.md)
+
+## Rewards
 
 * [Open Liquidity Program (OLP)](rewards/open-liquidity-program-olp/README.md)
   * [Introduction](rewards/open-liquidity-program-olp/introduction.md)
@@ -32,8 +50,17 @@
     * [Eligible Markets](rewards/open-liquidity-program-olp/program-details/eligible-markets.md)
   * [Reward Disbursements](rewards/open-liquidity-program-olp/reward-disbursements.md)
   * [Performance Tracking](rewards/open-liquidity-program-olp/performance-tracking.md)
+* [Leaderboard](rewards/leaderboard/README.md)
+  * [Trading Competitions](rewards/leaderboard/trading-competitions.md)
 
-## 💻 Resources
+## Resources
 
-* [SDK Packages](resources/sdk-packages.md)
-* [API Documentation](resources/api-documentation.md)
+* [Python SDK](https://github.com/InjectiveLabs/sdk-python)
+* [TypeScript SDK](https://docs.ts.injective.network)
+* [Go SDK](https://github.com/InjectiveLabs/sdk-go)
+* [Injectived CLI](https://docs.injective.network/toolkits/injectived)
+* [API Documentation](https://api.injective.exchange)
+* [Mainnet Status](https://status.injective.network/)
+* [Injective Explorer](https://explorer.injective.network)
+* [Testnet Faucet](https://testnet.faucet.injective.network)
+* [Testnet Status](https://testnet.status.injective.network/)
