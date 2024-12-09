@@ -50,6 +50,7 @@
     * [Eligible Markets](rewards/open-liquidity-program-olp/program-details/eligible-markets.md)
   * [Reward Disbursements](rewards/open-liquidity-program-olp/reward-disbursements.md)
   * [Performance Tracking](rewards/open-liquidity-program-olp/performance-tracking.md)
+* [Fee Tiers](rewards/fee-tiers.md)
 
 ## Resources
 
