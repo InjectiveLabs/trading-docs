@@ -89,7 +89,7 @@ LS_{N_{Ask}} = \frac{AskDepth_1}{Spread_1} + \frac{AskDepth_2}{Spread_2} + … \
 $$
 
 {% hint style="info" %}
-For information on individual reward calculations each epoch, see the [Reward Allocations page](reward-allocations.md).
+For information on individual reward calculations each epoch, see the [Reward Allocations page](reward-allocations-1.md).
 {% endhint %}
 
 [^1]: Market Maker

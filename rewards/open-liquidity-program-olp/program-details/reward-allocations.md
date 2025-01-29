@@ -1,5 +1,5 @@
 ---
-description: OLP Reward Allocations to Markets and Market Makers
+description: OLP Reward Allocations (through Epoch 42)
 ---
 
 # Reward Allocations

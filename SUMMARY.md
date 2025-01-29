@@ -48,6 +48,8 @@
     * [Scoring Formula/Methodology](rewards/open-liquidity-program-olp/program-details/scoring-formula-methodology.md)
     * [Formula Parameters](rewards/open-liquidity-program-olp/program-details/formula-parameters.md)
     * [Reward Allocations](rewards/open-liquidity-program-olp/program-details/reward-allocations.md)
+    * [Reward Allocations](rewards/open-liquidity-program-olp/program-details/reward-allocations-1.md)
+    * [Flexible Reward Allocations](rewards/open-liquidity-program-olp/program-details/flexible-reward-allocations.md)
     * [Eligible Markets](rewards/open-liquidity-program-olp/program-details/eligible-markets.md)
   * [Reward Disbursements](rewards/open-liquidity-program-olp/reward-disbursements.md)
   * [Performance Tracking](rewards/open-liquidity-program-olp/performance-tracking.md)
