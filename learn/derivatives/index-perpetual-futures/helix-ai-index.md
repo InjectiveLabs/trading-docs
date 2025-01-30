@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Helix AI Index
 
 **Overview**
