@@ -32,7 +32,9 @@ Static allocations may change over time as more markets are added to the eligibl
 
 As of epoch 43, the remaining rewards are allocated to eligible markets (excluding BTC/ETH/INJ Perps) based on the following schematic.
 
-First, each epoch starts fresh, such that every pair has an equal chance of earning the maximum total available reward for that epoch, regardless of trading volume and liquidity from the prior epoch. Each pair starts day 1 of the epoch with a range of possibility, from a minimum of 100 INJ for the epoch to a possible maximum of 1200 INJ. Prior to this change, minimum rewards were 400 INJ, maximum rewards were around 900 INJ, and there was insufficient variation in reward accrual between pairs with low volume and pairs with substantially more volume. With this change, liquidity providers are rewarded for volume in popular markets.
+First, each epoch starts fresh, such that every pair has an equal chance of earning the maximum total available reward for that epoch, regardless of trading volume and liquidity from the prior epoch. Each pair starts day 1 of the epoch with a range of possibility, from a minimum of 100 INJ for the epoch. The _MaxReward_ is still calculated as on the bottom of this page.
+
+Prior to this change, minimum rewards were 400 INJ, maximum rewards were around 900 INJ, and there was insufficient variation in reward accrual between pairs with low volume and pairs with substantially more volume. With this change, liquidity providers are rewarded for volume in popular markets.
 
 To determine which pair gets the lowest reward for the epoch, which pair gets the maximum reward for the epoch - and everything in-between - each market is assigned a Market Score as follows :&#x20;
 
@@ -81,6 +83,16 @@ Volume and liquidity moving averages are updated daily.
 **Markets Added Partway Through an Epoch**
 
 For markets added to the eligible list midway through an epoch, the preallocation will be prorated. For example, if ARB/USDT is added on the 15th day of the epoch, then the market will receive half of the rewards for the epoch (as there are 14 full days remaining out of 28).
+
+### Market Allocation Cap
+
+For each market that has dynamic reward allocations, a hard cap will be applied according to the following formula, where $$n$$ is the number of eligible markets excluding BTC, ETH, and INJ perps:
+
+$$
+Rewards_{max} = TAR\ *\ \frac{1 - 0.375}{n}*2
+$$
+
+Any reward allocations that exceed the cap will be redistributed amongst the other eligible markets according to the [dynamic allocation formula](reward-allocations-1.md#dynamic-market-reward-allocations).
 
 ## Reward Allocations
 
