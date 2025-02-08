@@ -49,7 +49,7 @@ $$
 Rewards_{min_{market\ i}}=100+\frac{Volume_{market_{i}}-MinVolume}{MaxVolume-MinVolume}(Rewards_{max}-100)
 $$
 
-and $$Rewards_{max}$$ is still calculated as on the bottom of this page. Ergo, the highest traded volume market will receive $$Rewards_{max}$$ and the lowest traded market by volume will receive 100 INJ.
+and $$Rewards_{max}$$ is still calculated as on the bottom of this page. Ergo, the highest traded volume market will receive $$Rewards_{max}$$ and the lowest traded market by volume will have a minimum reward of 100 INJ.
 
 It must be noted that $$Rewards_{min}$$ is just the floor for the rewards range, it will never be equivalent to the reward except in the case of the highest traded volume market where range will be trivial $$[Rewards_{max};Rewards_{max}]$$, in which case rewards will be equal to $$Rewards_{max}$$. This is a linear function that goes from 100 INJ to $$Rewards_{max}$$.
 
@@ -59,7 +59,7 @@ With this range defined, the steps to calculate the reward for a market are :&#x
 
 2\) Distribute the remaining rewards, _RR_, with $$RR=TAR-\sum_{i}Rewards_{min_{market\ i}}$$using the formulas above.
 
-3\) For any calculated rewards that exceed$$Rewards_{max}$$, redistribute this across all markets again following the formula above.
+3\) For any calculated rewards that exceed $$Rewards_{max}$$, redistribute this across all markets again following the formula above.
 
 4\) Iterate until there are no remaining rewards.
 
