@@ -1,6 +1,5 @@
 ---
 description: OLP Reward Allocations to Markets and Institutional Liquidity Providers
-hidden: true
 ---
 
 # Flexible Reward Allocations

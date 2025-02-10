@@ -1,6 +1,5 @@
 ---
 description: OLP Reward Allocations (Epoch 43 Onwards)
-hidden: true
 ---
 
 # Reward Allocations
@@ -92,3 +91,5 @@ $$
 {% hint style="info" %}
 Rewards for addresses totaling < 1 INJ at the end of each epoch will be disregarded to reduce the overhead of the disbursement process.&#x20;
 {% endhint %}
+
+For the reward allocation process up through epoch 42, please see [reward-allocations-legacy.md](reward-allocations-legacy.md "mention").
