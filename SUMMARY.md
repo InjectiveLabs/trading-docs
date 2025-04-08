@@ -53,6 +53,7 @@
     * [Reward Allocations (Legacy)](rewards/open-liquidity-program-olp/program-details/reward-allocations-legacy.md)
   * [Reward Disbursements](rewards/open-liquidity-program-olp/reward-disbursements.md)
   * [Performance Tracking](rewards/open-liquidity-program-olp/performance-tracking.md)
+  * [Volatility Response Modifications (VRMs)](rewards/open-liquidity-program-olp/volatility-response-modifications-vrms.md)
 * [Fee Tiers](rewards/fee-tiers.md)
 
 ## Resources
