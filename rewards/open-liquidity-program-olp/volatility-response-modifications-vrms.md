@@ -8,7 +8,7 @@ Our system continuously monitors market conditions using specific threshold crit
 
 A Volatility Response Modification may be triggered when :
 
-1. The overall market experiences a decline of more than 5% in a 24-hour period, **AND**
+1. The overall market experiences a change of more than 5% in a 24-hour period, **AND**
 2. Available liquidity fails to meet at least 50% of the established 30-day threshold, which is typically as follows for major trading pairs :
    * BTC/USDT PERP : $750,000 within 50 bps on each side
    * ETH/USDT PERP : $500K within 50 bps on each side
