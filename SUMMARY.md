@@ -16,8 +16,8 @@
   * [Expiry Futures](learn/derivatives/expiry-futures.md)
   * [Election Perpetual](learn/derivatives/election-perpetual.md)
   * [Pre-Launch Futures](learn/derivatives/pre-launch-futures.md)
-  * [Index Perpetual Futures](learn/derivatives/index-perpetual-futures/README.md)
-    * [Helix AI Index](learn/derivatives/index-perpetual-futures/helix-ai-index.md)
+  * [Index Perpetual Futures](learn/derivatives/index-perpetual-futures.md)
+  * [iAssets](learn/derivatives/iassets.md)
 
 ## Traders
 
