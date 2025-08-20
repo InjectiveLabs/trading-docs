@@ -1,0 +1,37 @@
+root: ./
+
+structure:
+  readme: ./README.md
+  summary: ./SUMMARY.md
+
+redirects:
+  learn/basics: https://docs.injective.network/defi/trading/
+  learn/basics/order-types: https://docs.injective.network/defi/trading/order-types/
+  learn/basics/trading-fees-and-rebates: https://docs.injective.network/defi/trading/fees/
+  learn/basics/margin-trading: https://docs.injective.network/defi/trading/margin/
+  learn/basics/margin-trading/liquidation: https://docs.injective.network/defi/trading/margin-liquidation/
+  learn/basics/margin-trading/funding-rates: https://docs.injective.network/defi/trading/margin-funding-rates/
+  learn/basics/margin-trading/performing-liquidations: https://docs.injective.network/defi/trading/margin-performing-liquidations/
+  learn/derivatives: https://docs.injective.network/defi/trading/derivatives/
+  learn/derivatives/perpetuals: https://docs.injective.network/defi/trading/derivatives-perpetuals/
+  learn/derivatives/expiry-futures: https://docs.injective.network/defi/trading/derivatives-expiry-futures/
+  learn/derivatives/election-perpetual: https://docs.injective.network/defi/trading/derivatives-election-perpetual/
+  learn/derivatives/pre-launch-futures: https://docs.injective.network/defi/trading/derivatives-pre-launch-futures/
+  learn/derivatives/index-perpetual-futures: https://docs.injective.network/defi/trading/derivatives-index-perpetual-futures/
+  learn/derivatives/iassets: https://docs.injective.network/defi/trading/derivatives-iassets/
+  rewards/open-liquidity-program-olp: https://docs.injective.network/defi/open-liquidity-program/
+  rewards/open-liquidity-program-olp/introduction: https://docs.injective.network/defi/open-liquidity-program/introduction/
+  rewards/open-liquidity-program-olp/olp-rewards: https://docs.injective.network/defi/open-liquidity-program/rewards/
+  rewards/open-liquidity-program-olp/epochs: https://docs.injective.network/defi/open-liquidity-program/epochs/
+  rewards/open-liquidity-program-olp/eligibility: https://docs.injective.network/defi/open-liquidity-program/eligibility/
+  rewards/open-liquidity-program-olp/program-details: https://docs.injective.network/defi/open-liquidity-program/program-details/
+  rewards/open-liquidity-program-olp/program-details/scoring-formula-methodology: https://docs.injective.network/defi/open-liquidity-program/scoring/
+  rewards/open-liquidity-program-olp/program-details/formula-parameters: https://docs.injective.network/defi/open-liquidity-program/formula-parameters/
+  rewards/open-liquidity-program-olp/program-details/reward-allocations: https://docs.injective.network/defi/open-liquidity-program/reward-allocations/
+  rewards/open-liquidity-program-olp/program-details/flexible-reward-allocations: https://docs.injective.network/defi/open-liquidity-program/flexible-reward-allocations/
+  rewards/open-liquidity-program-olp/program-details/eligible-markets: https://docs.injective.network/defi/open-liquidity-program/eligible-markets/
+  rewards/open-liquidity-program-olp/program-details/reward-allocations-legacy: https://docs.injective.network/defi/open-liquidity-program/reward-allocations-legacy/
+  rewards/open-liquidity-program-olp/reward-disbursements: https://docs.injective.network/defi/open-liquidity-program/reward-disbursements/
+  rewards/open-liquidity-program-olp/performance-tracking: https://docs.injective.network/defi/open-liquidity-program/performance-tracking/
+  rewards/open-liquidity-program-olp/volatility-response-modifications-vrms: https://docs.injective.network/defi/open-liquidity-program/volatility-response-modifications/
+  rewards/fee-tiers: https://docs.injective.network/defi/open-liquidity-program/fee-tiers/
